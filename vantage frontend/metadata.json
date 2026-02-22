@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Vantage - Smart Assignment Platform",
+  "description": "An AI-powered assignment platform with automated evaluation, anti-cheat measures, and multi-role management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

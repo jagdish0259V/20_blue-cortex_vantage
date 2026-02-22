@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary-red: #E63946;
+  --color-bg-light: #F1FAEE;
+  --color-accent-blue: #A8DADC;
+  --color-primary-blue: #457B9D;
+  --color-dark-navy: #1D3557;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-light text-dark-navy font-sans;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-sm;
+}
+
+.sidebar-item-active {
+  @apply bg-white/10 text-white;
+}
+
+.sidebar-item {
+  @apply text-white/70 hover:text-white hover:bg-white/5 transition-all duration-200;
+}
